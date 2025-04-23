@@ -1,6 +1,9 @@
 Welcomechan!
 ---
 
+![](https://github.com/AlexandrosPanag/My_Discord_Projects/blob/main/Welcomechan!/Welcomechan!.png?raw=true)
+
+
 ### **🌟 Welcomechan! — The Digital Spirit of Hospitality**  
 **Created by**: [@alexandrospanag](https://github.com/alexandrospanag)  
 **Function**: Discord community assistant, greeter, and positive vibe generator  
