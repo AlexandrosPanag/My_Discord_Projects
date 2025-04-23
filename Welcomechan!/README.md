@@ -1,6 +1,5 @@
 # Welcomechan! Project
 
----
 
 ### **🌟 Welcomechan! — The Digital Spirit of Hospitality**  
 **Created by**: [@alexandrospanag](https://github.com/alexandrospanag)  
