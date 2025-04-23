@@ -1,7 +1,6 @@
 Welcomechan!
 ---
-
-![](https://github.com/AlexandrosPanag/My_Discord_Projects/blob/main/Welcomechan!/Welcomechan!.png?raw=true)
+<img src="https://github.com/AlexandrosPanag/My_Discord_Projects/blob/main/Welcomechan!/Welcomechan!.png?raw=true" alt="drawing" width="200"/>
 
 
 ### **🌟 Welcomechan! — The Digital Spirit of Hospitality**  
