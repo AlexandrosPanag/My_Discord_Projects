@@ -2,6 +2,9 @@
 
 
 ### **🌟 Welcomechan! — The Digital Spirit of Hospitality**  
+
+<img src="https://github.com/AlexandrosPanag/My_Discord_Projects/blob/main/Welcomechan!/Welcomechan!.png?raw=true" alt="drawing" width="120"/>
+
 **Created by**: [@alexandrospanag](https://github.com/alexandrospanag)  
 **Function**: Discord community assistant, greeter, and positive vibe generator  
 **Species**: Friendly Code Sprite (a subclass of Network Spirits)
