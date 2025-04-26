@@ -1,6 +1,8 @@
 # Welcomechan! Project
 
 
+👋 Invite me here: https://discord.com/oauth2/authorize?client_id=1365308829440671935
+
 ### **🌟 Welcomechan! — The Digital Spirit of Hospitality**  
 
 <img src="https://github.com/AlexandrosPanag/My_Discord_Projects/blob/main/Welcomechan!/Welcomechan!.png?raw=true" alt="drawing" width="120"/>
