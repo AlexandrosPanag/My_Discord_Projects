@@ -8,6 +8,8 @@
 # LICENSE: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
 # This means you can share and adapt the work, but not for commercial purposes, and you must give appropriate credit.
 
+# DUE TO COPYRIGHT THE PUBLIC AVAILABLE CODE HAS BEEN ALTERED! THE OFFICIAL CODE IS DIFFERENT THAN THE CURRENT ONE!
+# DO NOT STEAL THE WORK OF OTHER CREATORS WITHOUT CREDITING THEM!
 
 import discord
 from discord.ext import commands
