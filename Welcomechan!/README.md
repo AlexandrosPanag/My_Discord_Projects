@@ -180,9 +180,5 @@ Bot made by [@alexandrospanag](https://github.com/alexandrospanag)
 
 Enjoy using WelcomeChan! 🎉
 
-## Credits
-
-Made by [@alexandrospanag](https://github.com/alexandrospanag)
-
 For help, use `!helpwelcomechan` in your server!
 
