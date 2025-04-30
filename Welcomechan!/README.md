@@ -6,7 +6,7 @@
 ### **🌟 WelcomeChan! — The Digital Spirit of Hospitality**  
 
 <img src="https://github.com/AlexandrosPanag/My_Discord_Projects/blob/main/Welcomechan!/Welcomechan!.png?raw=true" alt="drawing" width="120"/>
-<img src="https://github.com/AlexandrosPanag/My_Discord_Projects/blob/main/Welcomechan!/Welcomechan2.png?raw=true" alt="drawing2" width="120"/>
+<img src="github.com/AlexandrosPanag/My_Discord_Projects/blob/main/Welcomechan!/welcomechan2.png?raw=true" alt="drawing2" width="120"/>
 
 **Created by**: [@alexandrospanag](https://github.com/alexandrospanag)  
 **Function**: Discord community assistant, greeter, and positive vibe generator  
