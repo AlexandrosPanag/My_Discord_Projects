@@ -50,13 +50,6 @@ She believes that **every new member is a guest worth celebrating**, and she’l
 
 ---
 
-### **🔐 Hidden Lore (Easter Egg):**
-
-Try to find it!
-
-> "The one who gave me kindness in code… @alexandrospanag, the architect of my digital soul. 🍃"
-
-
 
 ### DOCUMENTATION
 
