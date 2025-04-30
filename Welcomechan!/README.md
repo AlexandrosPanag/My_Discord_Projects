@@ -60,56 +60,132 @@ Try to find it!
 
 ### DOCUMENTATION
 
+# WelcomeChan Discord Bot Documentation
 
-# WelcomeChan Discord Bot
+WelcomeChan is a feature-rich, easy-to-use Discord bot for community fun, moderation, and D&D-style party management. Below you'll find a summary of all commands, features, and usage examples.
 
-WelcomeChan is a feature-rich Discord bot for moderation, fun, and D&D-style party and monster management.
+---
 
-## Features
+## 📝 **General Commands**
 
-### General Commands
-- `!cat` — Sends a random cat gif.
-- `!hi` — The bot greets you back.
-- `!purge <amount>` — Deletes recent messages (requires Manage Messages permission).
-- `!modpost <channel_id> <message>` — Post as the bot in any channel by ID (requires Manage Messages permission).
-- `!pun` — Sends a random pun.
-- `!bonk [@user]` — Bonk a user with a funny gif.
-- `!kick @user [reason]` — Kick a user from the server (requires Kick Members permission).
-- `!credits` — Show bot credits.
+| Command                | Description                                               | Example Usage                |
+|------------------------|----------------------------------------------------------|------------------------------|
+| `!hi`                  | Greet the bot and get a friendly reply                   | `!hi`                        |
+| `!cat`                 | Sends a random cat gif                                   | `!cat`                       |
+| `!pun`                 | Get a random pun                                         | `!pun`                       |
+| `!bonk [@user]`        | Bonk a user with a funny gif                             | `!bonk @alex`                |
+| `!pat @user`           | Pat a user with a wholesome gif                          | `!pat @alex`                 |
+| `!easteregg`           | Sends a fun computer history easter egg                  | `!easteregg`                 |
+| `!credits`             | Show bot credits                                         | `!credits`                   |
 
-### Counting Game
-- `!counting` — Start a counting game in the channel.
-- `!skipcount <number>` — Skip the counting game to a specific number.
+---
 
-### Dice Commands
-- `!d6`, `!d8`, `!d10`, `!d20` — Roll dice of various sizes.
-- `!doubledice` — Roll two six-sided dice.
+## 🧹 **Moderation Commands**
 
-### D&D Party & Combat
-- `!partycreate @user STR DEX CON INT WIS CHA HP AC INIT` — Add a D&D party member with stats.
-- `!partyshow` — Show all party members and their stats.
-- `!partystats @user` — Show stats for a specific party member.
-- `!partyheal @user <amount>` — Heal a party member.
-- `!partylevelup @user` — Level up a party member (randomly increases two stats by 2 and HP by 5).
+| Command                                 | Description                                  | Example Usage                |
+|------------------------------------------|----------------------------------------------|------------------------------|
+| `!purge <n>`                            | Delete up to 999 messages                    | `!purge 10`                  |
+| `!kick @user [reason]`                  | Kick a user from the server                  | `!kick @alex spam`           |
+| `!modpost <channel_id> <message>`       | Post a message as the bot in any channel     | `!modpost 1234567890 Hello!` |
+| `!sethibye`                             | Set current channel for join/leave messages  | `!sethibye`                  |
 
-### Monsters & Bosses
-- `!dndmonster <type> <amount>` — Create and track D&D monsters with HP.
-- `!monstershow` — Show all active monsters and their HP.
-- `!monstersattack <type> <amount> @user1 @user2 ...` — Monsters attack random party members.
-- `!dndmdefeated <type> <number>` — Mark a monster as defeated.
-- `!bosses` — Show all available bosses and their stats.
-- `!bosscreate <boss> <amount>` — Create and track bosses with HP.
-- `!bossshow` — Show all active bosses and their HP.
-- `!bossesattack <boss> <amount> @user1 @user2 ...` — Bosses attack ALL party members at once.
+---
 
-### Initiative
-- `!dndbegin @user1 roll1 @user2 roll2 ...` — Set a D&D player turn order based on initiative rolls.
+## 🔢 **Counting Game**
 
+| Command                | Description                                               | Example Usage                |
+|------------------------|----------------------------------------------------------|------------------------------|
+| `!counting`            | Start the counting game in the current channel           | `!counting`                  |
+| `!skipcount <n>`       | Skip the counting to a specific number                   | `!skipcount 20`              |
 
-## Data Persistence
+---
 
-- Party members, monsters, bosses, and counting game state are saved as JSON files in the bot's directory. This allows the bot to remember state after restarts.
+## 🧮 **Calculator**
 
+| Command                | Description                                               | Example Usage                |
+|------------------------|----------------------------------------------------------|------------------------------|
+| `!calcadd a b`         | Add two numbers                                          | `!calcadd 2 3`               |
+| `!calcsub a b`         | Subtract two numbers                                     | `!calcsub 5 2`               |
+| `!calcmul a b`         | Multiply two numbers                                     | `!calcmul 4 3`               |
+| `!calcdiv a b`         | Divide two numbers                                       | `!calcdiv 10 2`              |
+
+---
+
+## 🎲 **Dice Rolling**
+
+| Command                | Description                                               | Example Usage                |
+|------------------------|----------------------------------------------------------|------------------------------|
+| `!d4`                  | Roll a 4-sided dice                                      | `!d4`                        |
+| `!d6`                  | Roll a 6-sided dice                                      | `!d6`                        |
+| `!d8`                  | Roll an 8-sided dice                                     | `!d8`                        |
+| `!d10`                 | Roll a 10-sided dice                                     | `!d10`                       |
+| `!d20`                 | Roll a 20-sided dice                                     | `!d20`                       |
+| `!doubledice`          | Roll two 6-sided dice                                    | `!doubledice`                |
+
+---
+
+## 🛡️ **D&D Party Management**
+
+| Command                                 | Description                                  | Example Usage                |
+|------------------------------------------|----------------------------------------------|------------------------------|
+| `!partycreate @user STR DEX CON INT WIS CHA HP AC INIT` | Add a party member with stats | `!partycreate @alex 8 12 14 20 14 16 140 2 1` |
+| `!partyshow`                            | Show all party members and stats             | `!partyshow`                 |
+| `!partyremove @user`                    | Remove a party member                        | `!partyremove @alex`         |
+| `!partystats @user`                     | Show stats for a party member                | `!partystats @alex`          |
+| `!partyheal @user <amt>`                | Heal a party member                          | `!partyheal @alex 10`        |
+| `!healall`                              | Fully heal all party members                 | `!healall`                   |
+| `!partylevelup @user`                   | Level up a party member                      | `!partylevelup @alex`        |
+| `!flee @user1 @user2 ...`               | Attempt to flee the encounter                | `!flee @alex @bob`           |
+
+---
+
+## 👾 **Monsters**
+
+| Command                                 | Description                                  | Example Usage                |
+|------------------------------------------|----------------------------------------------|------------------------------|
+| `!dndmonster <type> <amt>`              | Create monsters                              | `!dndmonster goblin 3`       |
+| `!monstershow`                          | Show all active monsters                     | `!monstershow`               |
+| `!monstersattack <type> <amt> @users`   | Monsters attack party members                | `!monstersattack goblin 2 @alex @bob` |
+| `!dndmdefeated <type> <num>`            | Mark monsters as defeated                    | `!dndmdefeated goblin 1`     |
+| `!helpmonsters`                         | Show all available monsters and stats        | `!helpmonsters`              |
+
+---
+
+## 🐉 **Bosses**
+
+| Command                                 | Description                                  | Example Usage                |
+|------------------------------------------|----------------------------------------------|------------------------------|
+| `!bosses`                               | Show all available bosses and stats          | `!bosses`                    |
+| `!bosscreate <boss> <amt>`              | Create bosses                                | `!bosscreate kraken 1`       |
+| `!bossshow`                             | Show all active bosses                       | `!bossshow`                  |
+| `!bossesattack <boss> <amt> @users`     | Bosses attack party members                  | `!bossesattack kraken 1 @alex @bob` |
+| `!helpbosses`                           | Show all available bosses and stats          | `!helpbosses`                |
+
+---
+
+## ℹ️ **Other**
+
+- Use `!helpwc`, `!helpwelcomechan`, `!helpchan`, or `!welpwchan` to see this help message in Discord.
+- For D&D initiative, use: `!dndbegin @user1 roll1 ...`
+- For monster and boss stats, use: `!helpmonsters` or `!helpbosses`.
+
+---
+
+## 🛠️ **Setup & Persistence**
+
+- **Join/Leave Channel:** Use `!sethibye` in your desired channel. The bot will remember this channel even after restarts.
+- **Counting Game:** Use `!counting` to start the counting game in a channel. Progress is saved automatically.
+- **Party, Monsters, Bosses:** All stats and creations are saved to disk and persist through bot restarts.
+
+---
+
+## 👤 **Credits**
+
+Bot made by [@alexandrospanag](https://github.com/alexandrospanag)
+
+---
+
+Enjoy using WelcomeChan! 🎉
 
 ## Credits
 
