@@ -50,40 +50,14 @@ She believes that **every new member is a guest worth celebrating**, and she’l
 
 
 ---
+WelcomeChan Bot Documentation
 
+### **WelcomeChan is a multipurpose Discord bot for fun, moderation, D&D, and community engagement.**
 
-### DOCUMENTATION
+### Features
+Leveling System:
+Users earn points for sending messages and adding reactions. Level-up messages are posted in the same channel as the activity.
 
-# WelcomeChan Discord Bot Documentation
-
-WelcomeChan is a feature-rich, easy-to-use Discord bot for community fun, moderation, and D&D-style party management. Below you'll find a summary of all commands, features, and usage examples.
-
----
-
-## 📝 **General Commands**
-
-| Command                | Description                                               | Example Usage                |
-|------------------------|----------------------------------------------------------|------------------------------|
-| `!hi`                  | Greet the bot and get a friendly reply                   | `!hi`                        |
-| `!cat`                 | Sends a random cat gif                                   | `!cat`                       |
-| `!pun`                 | Get a random pun                                         | `!pun`                       |
-| `!bonk [@user]`        | Bonk a user with a funny gif                             | `!bonk @alex`                |
-| `!pat @user`           | Pat a user with a wholesome gif                          | `!pat @alex`                 |
-| `!easteregg`           | Sends a fun computer history easter egg                  | `!easteregg`                 |
-| `!credits`             | Show bot credits                                         | `!credits`                   |
-
----
-
-## 🧹 **Moderation Commands**
-
-| Command                                 | Description                                  | Example Usage                |
-|------------------------------------------|----------------------------------------------|------------------------------|
-| `!purge <n>`                            | Delete up to 999 messages                    | `!purge 10`                  |
-| `!kick @user [reason]`                  | Kick a user from the server                  | `!kick @alex spam`           |
-| `!modpost <channel_id> <message>`       | Post a message as the bot in any channel     | `!modpost 1234567890 Hello!` |
-| `!sethibye`                             | Set current channel for join/leave messages  | `!sethibye`                  |
-
----
 
 ## 🔢 **Counting Game**
 
@@ -92,7 +66,26 @@ WelcomeChan is a feature-rich, easy-to-use Discord bot for community fun, modera
 | `!counting`            | Start the counting game in the current channel           | `!counting`                  |
 | `!skipcount <n>`       | Skip the counting to a specific number                   | `!skipcount 20`              |
 
----
+## 🎉Fun Commands:
+
+| Command                | Description                                               | Example Usage                |
+|------------------------|----------------------------------------------------------|------------------------------|
+| `!cat`                 | Sends a random cat gif                                   | `!cat        `               |
+| `!hi`                  | Greets the user                                          | `!hi @user   `               |
+| `!pun`                 | Send a random pun                                        | `!pun        `               |
+| `!pat`                 | Pats a user with a wholesome gif                         | `!pat @user  `               |
+| `!bonk`                | Bonks a user with a gif                                  | `!bonk @user  `              |
+| `?????`                | Easter egg! Try to find it!                              | `trytofindit! `              |
+
+## 🧹 **Moderation Commands**
+
+| Command                                 | Description                                  | Example Usage                |
+|------------------------------------------|----------------------------------------------|------------------------------|
+| `!purge <n>`                            | Delete up to 999 messages                    | `!purge 10`                  |
+| `!kick @user [reason]`                  | Kick a user from the server                  | `!kick @alex spam`           |
+| `!modpost <channel_id> <message>`       | Post a message as the bot in any channel     | `!modpost 1234567890 Hello!` |
+
+
 
 ## 🧮 **Calculator**
 
@@ -103,20 +96,16 @@ WelcomeChan is a feature-rich, easy-to-use Discord bot for community fun, modera
 | `!calcmul a b`         | Multiply two numbers                                     | `!calcmul 4 3`               |
 | `!calcdiv a b`         | Divide two numbers                                       | `!calcdiv 10 2`              |
 
----
 
-## 🎲 **Dice Rolling**
+## 🏆 **Leaderboard & Levels**
+
 
 | Command                | Description                                               | Example Usage                |
 |------------------------|----------------------------------------------------------|------------------------------|
-| `!d4`                  | Roll a 4-sided dice                                      | `!d4`                        |
-| `!d6`                  | Roll a 6-sided dice                                      | `!d6`                        |
-| `!d8`                  | Roll an 8-sided dice                                     | `!d8`                        |
-| `!d10`                 | Roll a 10-sided dice                                     | `!d10`                       |
-| `!d20`                 | Roll a 20-sided dice                                     | `!d20`                       |
-| `!doubledice`          | Roll two 6-sided dice                                    | `!doubledice`                |
+| `!leaderboard`         | Top 10 contributors                                      | `!leaderboard`               |
+| `!checkmylevel`        | See your points and level                                | `!checkmylevel`               |
 
----
+
 
 ## 🛡️ **D&D Party Management**
 
@@ -131,9 +120,7 @@ WelcomeChan is a feature-rich, easy-to-use Discord bot for community fun, modera
 | `!partylevelup @user`                   | Level up a party member                      | `!partylevelup @alex`        |
 | `!flee @user1 @user2 ...`               | Attempt to flee the encounter                | `!flee @alex @bob`           |
 
----
-
-## 👾 **Monsters**
+## 👾 **Monsters & Bosses 🐉**
 
 | Command                                 | Description                                  | Example Usage                |
 |------------------------------------------|----------------------------------------------|------------------------------|
@@ -142,36 +129,29 @@ WelcomeChan is a feature-rich, easy-to-use Discord bot for community fun, modera
 | `!monstersattack <type> <amt> @users`   | Monsters attack party members                | `!monstersattack goblin 2 @alex @bob` |
 | `!dndmdefeated <type> <num>`            | Mark monsters as defeated                    | `!dndmdefeated goblin 1`     |
 | `!helpmonsters`                         | Show all available monsters and stats        | `!helpmonsters`              |
-
----
-
-## 🐉 **Bosses**
-
-| Command                                 | Description                                  | Example Usage                |
-|------------------------------------------|----------------------------------------------|------------------------------|
 | `!bosses`                               | Show all available bosses and stats          | `!bosses`                    |
 | `!bosscreate <boss> <amt>`              | Create bosses                                | `!bosscreate kraken 1`       |
 | `!bossshow`                             | Show all active bosses                       | `!bossshow`                  |
 | `!bossesattack <boss> <amt> @users`     | Bosses attack party members                  | `!bossesattack kraken 1 @alex @bob` |
 | `!helpbosses`                           | Show all available bosses and stats          | `!helpbosses`                |
 
----
+
+## 🎲 **Dice Rolling**
+
+| Command                | Description                                               | Example Usage                |
+|------------------------|----------------------------------------------------------|------------------------------|
+| `!d4`                  | Roll a 4-sided dice                                      | `!d4`                        |
+| `!d6`                  | Roll a 6-sided dice                                      | `!d6`                        |
+| `!d8`                  | Roll an 8-sided dice                                     | `!d8`                        |
+| `!d10`                 | Roll a 10-sided dice                                     | `!d10`                       |
+| `!d20`                 | Roll a 20-sided dice                                     | `!d20`                       |
+| `!doubledice`          | Roll two 6-sided dice                                    | `!doubledice`                |
 
 ## ℹ️ **Other**
 
 - Use `!helpwc`, `!helpwelcomechan`, `!helpchan`, or `!welpwchan` to see this help message in Discord.
 - For D&D initiative, use: `!dndbegin @user1 roll1 ...`
 - For monster and boss stats, use: `!helpmonsters` or `!helpbosses`.
-
----
-
-## 🛠️ **Setup & Persistence**
-
-- **Join/Leave Channel:** Use `!sethibye` in your desired channel. The bot will remember this channel even after restarts.
-- **Counting Game:** Use `!counting` to start the counting game in a channel. Progress is saved automatically.
-- **Party, Monsters, Bosses:** All stats and creations are saved to disk and persist through bot restarts.
-
----
 
 ## 👤 **Credits**
 
