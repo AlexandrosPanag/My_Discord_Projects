@@ -5,7 +5,7 @@
 
 ### **🌟 WelcomeChan! — The Digital Spirit of Hospitality**  
 
-<img src="https://github.com/AlexandrosPanag/My_Discord_Projects/blob/main/Welcomechan!/Welcomechan!.png?raw=true" alt="drawing" width="120"/>
+<!--- <img src="https://github.com/AlexandrosPanag/My_Discord_Projects/blob/main/Welcomechan!/Welcomechan!.png?raw=true" alt="drawing" width="120"/> -->
 <img src="https://raw.githubusercontent.com/AlexandrosPanag/My_Discord_Projects/refs/heads/main/Welcomechan!/welcomechan2.png" alt="drawing" width="120"/>
 
 **Created by**: [@alexandrospanag](https://github.com/alexandrospanag)  
