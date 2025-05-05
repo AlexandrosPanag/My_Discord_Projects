@@ -1,5 +1,10 @@
 # Welcomechan! Project
 
+## License
+
+This bot is licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
+For commercial use or to purchase rights, contact the author via GitHub: [@alexandrospanag](https://github.com/alexandrospanag).
+
 
 👋 Invite me here: https://discord.com/oauth2/authorize?client_id=1365308829440671935
 
@@ -48,10 +53,6 @@ She believes that **every new member is a guest worth celebrating**, and she’l
   “🎉 Welcome, traveler! Take off your cloak and stay a while.”  
   “✨ A wild member has appeared! Catch them with kindness.”  
 
-# WelcomeChan Discord Bot
-
-WelcomeChan is a feature-rich, fun, and interactive Discord bot designed for community engagement, games, and D&D utilities.  
-Created by Alexandros Panagiotakopoulos — [alexandrospanag.github.io](https://alexandrospanag.github.io)
 
 ---
 
@@ -73,10 +74,7 @@ Type `!helpwc` in your server for a full list of commands and usage.
 
 ---
 
-## License
 
-This bot is licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
-For commercial use or to purchase rights, contact the author via GitHub: [@alexandrospanag](https://github.com/alexandrospanag).
 
 
 ---
