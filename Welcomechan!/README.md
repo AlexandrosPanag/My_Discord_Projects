@@ -45,18 +45,10 @@ Infused with warmth, memes, and just a hint of AI-powered sass, Welcomechan! cra
 
 She believes that **every new member is a guest worth celebrating**, and she’ll throw confetti (or just a role assignment) to prove it.
 
----
-
-### **🛠️ Abilities:**
-
-- **Auto-Greetings** with randomized welcome messages like:  
-  “🎉 Welcome, traveler! Take off your cloak and stay a while.”  
-  “✨ A wild member has appeared! Catch them with kindness.”  
-
 
 ---
 
-## Features
+## 🛠️ Features
 
 - **Fun Commands:** Cat gifs, puns, bonk, pat, and more!
 - **Games:** Counting game, Magic 8-Ball, Truth or Dare, dice rolls.
