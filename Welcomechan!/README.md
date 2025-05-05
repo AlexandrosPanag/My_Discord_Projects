@@ -1,9 +1,10 @@
 # Welcomechan! Project
 
-## License
-
+## ©️ License
+----
 This bot is licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
 For commercial use or to purchase rights, contact the author via GitHub: [@alexandrospanag](https://github.com/alexandrospanag).
+----
 
 
 👋 Invite me here: https://discord.com/oauth2/authorize?client_id=1365308829440671935
@@ -123,7 +124,7 @@ Type 🎉 `!helpwc` or `!helpwelcomechan` in your server for a full list of comm
 
 ---
 
-## License
+## ©️ License
 
 This bot is licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
 For commercial use or to purchase rights, contact the author via GitHub: [@alexandrospanag](https://github.com/alexandrospanag).
@@ -132,7 +133,7 @@ For commercial use or to purchase rights, contact the author via GitHub: [@alexa
 
 
 
-## 👤 **Credits**
+## ©️ **Credits**
 
 Bot made by [@alexandrospanag](https://github.com/alexandrospanag)
 
