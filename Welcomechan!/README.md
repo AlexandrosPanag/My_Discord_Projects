@@ -64,55 +64,6 @@ Created by Alexandros Panagiotakopoulos — [alexandrospanag.github.io](https://
 - **Calculator:** Basic arithmetic commands.
 - **Leveling System:** Earn points and level up by participating.
 
----
-
-## Example Commands
-
-| Command                        | Description                                              |
-|--------------------------------|----------------------------------------------------------|
-| `!hi`                          | Say hi!                                                  |
-| `!cat`                         | Get a random cat gif                                     |
-| `!pun`                         | Get a random pun                                         |
-| `!bonk [@user]`                | Bonk a user with a gif                                   |
-| `!pat @user`                   | Pat a user with a wholesome gif                          |
-| `!easteregg`                   | Fun computer history fact                                |
-| `!8ball <question>`            | Ask the magic 8-ball a question                          |
-| `!tod`                         | Truth or Dare: Get dared by a random user                |
-| `!purge <n>`                   | Delete n messages (mod only)                             |
-| `!modpost <id> <msg>`          | Post as the bot in any channel (mod only)                |
-| `!kick @user [reason]`         | Kick a user (mod only)                                   |
-| `!d4`, `!d6`, `!d8`, `!d10`, `!d20`, `!doubledice` | Roll dice                |
-| `!counting`                    | Start the counting game                                  |
-| `!skipcount <n>`               | Skip to a number in counting game                        |
-| `!leaderboard`                 | Show top 10 contributors                                 |
-| `!checkmylevel`                | Show your contribution points and level                  |
-| `!calcadd a b`, `!calcsub a b`, `!calcmul a b`, `!calcdiv a b` | Calculator         |
-| `!partycreate ...`             | Create a D&D party member                                |
-| `!partyshow`                   | Show all party members                                   |
-| `!healall`                     | Heal all party members                                   |
-| `!dndmonster ...`              | Create monsters for D&D                                  |
-| `!monstershow`                 | Show all active monsters                                 |
-| `!monstersattack ...`          | Monsters attack party members                            |
-| `!bosses`, `!bosscreate ...`   | Boss management commands                                 |
-| `!bossshow`                    | Show all active bosses                                   |
-| `!bossesattack ...`            | Bosses attack party members                              |
-| `!licence`                     | Show bot license                                         |
-
----
-
-## Getting Started
-
-1. **Clone this repository.**
-2. **Install requirements:**
-    ```bash
-    pip install discord.py
-    ```
-3. **Configure your bot token:**
-    - Replace the token in `welcomechan.py` with your own Discord bot token.
-4. **Run the bot:**
-    ```bash
-    python welcomechan.py
-    ```
 
 ---
 
@@ -127,11 +78,6 @@ Type `!helpwc` in your server for a full list of commands and usage.
 This bot is licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
 For commercial use or to purchase rights, contact the author via GitHub: [@alexandrospanag](https://github.com/alexandrospanag).
 
----
-# WelcomeChan Discord Bot
-
-WelcomeChan is a feature-rich, fun, and interactive Discord bot designed for community engagement, games, and D&D utilities.  
-Created by Alexandros Panagiotakopoulos — [alexandrospanag.github.io](https://alexandrospanag.github.io)
 
 ---
 
