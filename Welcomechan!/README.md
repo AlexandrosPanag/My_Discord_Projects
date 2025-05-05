@@ -126,16 +126,11 @@ Type 🎉 `!helpwc` or `!helpwelcomechan` in your server for a full list of comm
 
 ---
 
-## ©️ License
+## ©️ License & Credits
 
 This bot is licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
 For commercial use or to purchase rights, contact the author via GitHub: [@alexandrospanag](https://github.com/alexandrospanag).
 
-
-
-
-
-## ©️ **Credits**
 
 Bot made by [@alexandrospanag](https://github.com/alexandrospanag)
 
