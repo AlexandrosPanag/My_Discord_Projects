@@ -48,118 +48,156 @@ She believes that **every new member is a guest worth celebrating**, and she’l
   “🎉 Welcome, traveler! Take off your cloak and stay a while.”  
   “✨ A wild member has appeared! Catch them with kindness.”  
 
+# WelcomeChan Discord Bot
+
+WelcomeChan is a feature-rich, fun, and interactive Discord bot designed for community engagement, games, and D&D utilities.  
+Created by Alexandros Panagiotakopoulos — [alexandrospanag.github.io](https://alexandrospanag.github.io)
 
 ---
-WelcomeChan Bot Documentation
 
-### **WelcomeChan is a multipurpose Discord bot for fun, moderation, D&D, and community engagement.**
+## Features
 
-### Features
-Leveling System:
-Users earn points for sending messages and adding reactions. Level-up messages are posted in the same channel as the activity.
+- **Fun Commands:** Cat gifs, puns, bonk, pat, and more!
+- **Games:** Counting game, Magic 8-Ball, Truth or Dare, dice rolls.
+- **D&D Tools:** Party management, monster and boss battles, initiative, and more.
+- **Moderation:** Kick, purge, modpost, and leaderboard.
+- **Calculator:** Basic arithmetic commands.
+- **Leveling System:** Earn points and level up by participating.
+
+---
+
+## Example Commands
+
+| Command                        | Description                                              |
+|--------------------------------|----------------------------------------------------------|
+| `!hi`                          | Say hi!                                                  |
+| `!cat`                         | Get a random cat gif                                     |
+| `!pun`                         | Get a random pun                                         |
+| `!bonk [@user]`                | Bonk a user with a gif                                   |
+| `!pat @user`                   | Pat a user with a wholesome gif                          |
+| `!easteregg`                   | Fun computer history fact                                |
+| `!8ball <question>`            | Ask the magic 8-ball a question                          |
+| `!tod`                         | Truth or Dare: Get dared by a random user                |
+| `!purge <n>`                   | Delete n messages (mod only)                             |
+| `!modpost <id> <msg>`          | Post as the bot in any channel (mod only)                |
+| `!kick @user [reason]`         | Kick a user (mod only)                                   |
+| `!d4`, `!d6`, `!d8`, `!d10`, `!d20`, `!doubledice` | Roll dice                |
+| `!counting`                    | Start the counting game                                  |
+| `!skipcount <n>`               | Skip to a number in counting game                        |
+| `!leaderboard`                 | Show top 10 contributors                                 |
+| `!checkmylevel`                | Show your contribution points and level                  |
+| `!calcadd a b`, `!calcsub a b`, `!calcmul a b`, `!calcdiv a b` | Calculator         |
+| `!partycreate ...`             | Create a D&D party member                                |
+| `!partyshow`                   | Show all party members                                   |
+| `!healall`                     | Heal all party members                                   |
+| `!dndmonster ...`              | Create monsters for D&D                                  |
+| `!monstershow`                 | Show all active monsters                                 |
+| `!monstersattack ...`          | Monsters attack party members                            |
+| `!bosses`, `!bosscreate ...`   | Boss management commands                                 |
+| `!bossshow`                    | Show all active bosses                                   |
+| `!bossesattack ...`            | Bosses attack party members                              |
+| `!licence`                     | Show bot license                                         |
+
+---
+
+## Getting Started
+
+1. **Clone this repository.**
+2. **Install requirements:**
+    ```bash
+    pip install discord.py
+    ```
+3. **Configure your bot token:**
+    - Replace the token in `welcomechan.py` with your own Discord bot token.
+4. **Run the bot:**
+    ```bash
+    python welcomechan.py
+    ```
+
+---
+
+## Help Command
+
+Type `!helpwc` in your server for a full list of commands and usage.
+
+---
+
+## License
+
+This bot is licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
+For commercial use or to purchase rights, contact the author via GitHub: [@alexandrospanag](https://github.com/alexandrospanag).
+
+---
+# WelcomeChan Discord Bot
+
+WelcomeChan is a feature-rich, fun, and interactive Discord bot designed for community engagement, games, and D&D utilities.  
+Created by Alexandros Panagiotakopoulos — [alexandrospanag.github.io](https://alexandrospanag.github.io)
+
+---
+
+## Features
+
+- **Fun Commands:** Cat gifs, puns, bonk, pat, and more!
+- **Games:** Counting game, Magic 8-Ball, Truth or Dare, dice rolls.
+- **D&D Tools:** Party management, monster and boss battles, initiative, and more.
+- **Moderation:** Kick, purge, modpost, and leaderboard.
+- **Calculator:** Basic arithmetic commands.
+- **Leveling System:** Earn points and level up by participating.
+
+---
+
+## Example Commands
+
+| Command                        | Description                                              |
+|--------------------------------|----------------------------------------------------------|
+| `!hi`                          | Say hi!                                                  |
+| `!cat`                         | Get a random cat gif                                     |
+| `!pun`                         | Get a random pun                                         |
+| `!bonk [@user]`                | Bonk a user with a gif                                   |
+| `!pat @user`                   | Pat a user with a wholesome gif                          |
+| `!easteregg`                   | Fun computer history fact                                |
+| `!8ball <question>`            | Ask the magic 8-ball a question                          |
+| `!tod`                         | Truth or Dare: Get dared by a random user                |
+| `!purge <n>`                   | Delete n messages (mod only)                             |
+| `!modpost <id> <msg>`          | Post as the bot in any channel (mod only)                |
+| `!kick @user [reason]`         | Kick a user (mod only)                                   |
+| `!d4`, `!d6`, `!d8`, `!d10`, `!d20`, `!doubledice` | Roll dice                |
+| `!counting`                    | Start the counting game                                  |
+| `!skipcount <n>`               | Skip to a number in counting game                        |
+| `!leaderboard`                 | Show top 10 contributors                                 |
+| `!checkmylevel`                | Show your contribution points and level                  |
+| `!calcadd a b`, `!calcsub a b`, `!calcmul a b`, `!calcdiv a b` | Calculator         |
+| `!partycreate ...`             | Create a D&D party member                                |
+| `!partyshow`                   | Show all party members                                   |
+| `!healall`                     | Heal all party members                                   |
+| `!dndmonster ...`              | Create monsters for D&D                                  |
+| `!monstershow`                 | Show all active monsters                                 |
+| `!monstersattack ...`          | Monsters attack party members                            |
+| `!bosses`, `!bosscreate ...`   | Boss management commands                                 |
+| `!bossshow`                    | Show all active bosses                                   |
+| `!bossesattack ...`            | Bosses attack party members                              |
+| `!licence`                     | Show bot license                                         |
+
+---
 
 
-## 🔢 **Counting Game**
+## Help Command
 
-| Command                | Description                                               | Example Usage                |
-|------------------------|----------------------------------------------------------|------------------------------|
-| `!counting`            | Start the counting game in the current channel           | `!counting`                  |
-| `!skipcount <n>`       | Skip the counting to a specific number                   | `!skipcount 20`              |
+Type 🎉 `!helpwc` or `!helpwelcomechan` in your server for a full list of commands and usage.
 
-## 🎉Fun Commands:
+---
 
-| Command                | Description                                               | Example Usage                |
-|------------------------|----------------------------------------------------------|------------------------------|
-| `!cat`                 | Sends a random cat gif                                   | `!cat        `               |
-| `!hi`                  | Greets the user                                          | `!hi @user   `               |
-| `!pun`                 | Send a random pun                                        | `!pun        `               |
-| `!pat`                 | Pats a user with a wholesome gif                         | `!pat @user  `               |
-| `!bonk`                | Bonks a user with a gif                                  | `!bonk @user  `              |
-| `?????`                | Easter egg! Try to find it!                              | `trytofindit! `              |
+## License
 
-## 🧹 **Moderation Commands**
-
-| Command                                 | Description                                  | Example Usage                |
-|------------------------------------------|----------------------------------------------|------------------------------|
-| `!purge <n>`                            | Delete up to 999 messages                    | `!purge 10`                  |
-| `!kick @user [reason]`                  | Kick a user from the server                  | `!kick @alex spam`           |
-| `!modpost <channel_id> <message>`       | Post a message as the bot in any channel     | `!modpost 1234567890 Hello!` |
+This bot is licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
+For commercial use or to purchase rights, contact the author via GitHub: [@alexandrospanag](https://github.com/alexandrospanag).
 
 
 
-## 🧮 **Calculator**
 
-| Command                | Description                                               | Example Usage                |
-|------------------------|----------------------------------------------------------|------------------------------|
-| `!calcadd a b`         | Add two numbers                                          | `!calcadd 2 3`               |
-| `!calcsub a b`         | Subtract two numbers                                     | `!calcsub 5 2`               |
-| `!calcmul a b`         | Multiply two numbers                                     | `!calcmul 4 3`               |
-| `!calcdiv a b`         | Divide two numbers                                       | `!calcdiv 10 2`              |
-
-
-## 🏆 **Leaderboard & Levels**
-
-
-| Command                | Description                                               | Example Usage                |
-|------------------------|----------------------------------------------------------|------------------------------|
-| `!leaderboard`         | Top 10 contributors                                      | `!leaderboard`               |
-| `!checkmylevel`        | See your points and level                                | `!checkmylevel`               |
-
-
-
-## 🛡️ **D&D Party Management**
-
-| Command                                 | Description                                  | Example Usage                |
-|------------------------------------------|----------------------------------------------|------------------------------|
-| `!partycreate @user STR DEX CON INT WIS CHA HP AC INIT` | Add a party member with stats | `!partycreate @alex 8 12 14 20 14 16 140 2 1` |
-| `!partyshow`                            | Show all party members and stats             | `!partyshow`                 |
-| `!partyremove @user`                    | Remove a party member                        | `!partyremove @alex`         |
-| `!partystats @user`                     | Show stats for a party member                | `!partystats @alex`          |
-| `!partyheal @user <amt>`                | Heal a party member                          | `!partyheal @alex 10`        |
-| `!healall`                              | Fully heal all party members                 | `!healall`                   |
-| `!partylevelup @user`                   | Level up a party member                      | `!partylevelup @alex`        |
-| `!flee @user1 @user2 ...`               | Attempt to flee the encounter                | `!flee @alex @bob`           |
-
-## 👾 **Monsters & Bosses 🐉**
-
-| Command                                 | Description                                  | Example Usage                |
-|------------------------------------------|----------------------------------------------|------------------------------|
-| `!dndmonster <type> <amt>`              | Create monsters                              | `!dndmonster goblin 3`       |
-| `!monstershow`                          | Show all active monsters                     | `!monstershow`               |
-| `!monstersattack <type> <amt> @users`   | Monsters attack party members                | `!monstersattack goblin 2 @alex @bob` |
-| `!dndmdefeated <type> <num>`            | Mark monsters as defeated                    | `!dndmdefeated goblin 1`     |
-| `!helpmonsters`                         | Show all available monsters and stats        | `!helpmonsters`              |
-| `!bosses`                               | Show all available bosses and stats          | `!bosses`                    |
-| `!bosscreate <boss> <amt>`              | Create bosses                                | `!bosscreate kraken 1`       |
-| `!bossshow`                             | Show all active bosses                       | `!bossshow`                  |
-| `!bossesattack <boss> <amt> @users`     | Bosses attack party members                  | `!bossesattack kraken 1 @alex @bob` |
-| `!helpbosses`                           | Show all available bosses and stats          | `!helpbosses`                |
-
-
-## 🎲 **Dice Rolling**
-
-| Command                | Description                                               | Example Usage                |
-|------------------------|----------------------------------------------------------|------------------------------|
-| `!d4`                  | Roll a 4-sided dice                                      | `!d4`                        |
-| `!d6`                  | Roll a 6-sided dice                                      | `!d6`                        |
-| `!d8`                  | Roll an 8-sided dice                                     | `!d8`                        |
-| `!d10`                 | Roll a 10-sided dice                                     | `!d10`                       |
-| `!d20`                 | Roll a 20-sided dice                                     | `!d20`                       |
-| `!doubledice`          | Roll two 6-sided dice                                    | `!doubledice`                |
-
-## ℹ️ **Other**
-
-- Use `!helpwc`, `!helpwelcomechan`, `!helpchan`, or `!welpwchan` to see this help message in Discord.
-- For D&D initiative, use: `!dndbegin @user1 roll1 ...`
-- For monster and boss stats, use: `!helpmonsters` or `!helpbosses`.
 
 ## 👤 **Credits**
 
 Bot made by [@alexandrospanag](https://github.com/alexandrospanag)
 
----
-
-Enjoy using WelcomeChan! 🎉
-
-For help, use `!helpwelcomechan` in your server!
 
