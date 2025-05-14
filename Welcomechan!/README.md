@@ -8,6 +8,11 @@ For commercial use or to purchase rights, contact the author via GitHub: [@alexa
 
 ---
 
+**Disclaimer:**  
+ The code examples and templates provided here are for demonstration and educational purposes only.  
+ The full, raw code for my bots is **not open source** and is only available for purchase.  
+ If you wish to use the complete bot or obtain commercial rights, please contact the author via GitHub: **@alexandrospanag**.
+
 ### **🌟 WelcomeChan! — The Digital Spirit of Hospitality**  
 
 <!--- <img src="https://github.com/AlexandrosPanag/My_Discord_Projects/blob/main/Welcomechan!/Welcomechan!.png?raw=true" alt="drawing" width="120"/> -->
