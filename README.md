@@ -4,7 +4,7 @@
 My Discord Bot Projects!
 
 **Disclaimer:**  
- The code examples and templates provided here are for demonstration and educational purposes only.  
+ The code examples and templates provided here are for **demonstration and educational purposes only**.  
  The full, raw code for my bots is **not open source** and is only available for purchase.  
  If you wish to use the complete bot or obtain commercial rights, please contact the author via GitHub: **@alexandrospanag**.
 
