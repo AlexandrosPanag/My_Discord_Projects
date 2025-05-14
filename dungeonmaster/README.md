@@ -1,7 +1,19 @@
 # DungeonMaster Discord Bot Documentation
 
+©️ License
+---
 
-DungeonMaster is a Discord bot designed to help you run tabletop RPG sessions, manage parties, roll dice, and create monsters—all from your server!
+This bot is licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
+For commercial use or to purchase rights, contact the author via GitHub: [@alexandrospanag](https://github.com/alexandrospanag).
+
+---
+
+**Disclaimer:**  
+ The code examples and templates provided here are for demonstration and educational purposes only.  
+ The full, raw code for my bots is **not open source** and is only available for purchase.  
+ If you wish to use the complete bot or obtain commercial rights, please contact the author via GitHub: **@alexandrospanag**.
+ 
+💀 DungeonMaster is a Discord bot designed to help you run tabletop RPG sessions, manage parties, roll dice, and create monsters—all from your server!
 
 
 <!--- <img src="https://github.com/AlexandrosPanag/My_Discord_Projects/blob/main/Welcomechan!/Welcomechan!.png?raw=true" alt="drawing" width="120"/> -->
