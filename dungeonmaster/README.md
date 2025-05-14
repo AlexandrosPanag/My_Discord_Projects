@@ -1,6 +1,12 @@
 # DungeonMaster Discord Bot Documentation
 
+
 DungeonMaster is a Discord bot designed to help you run tabletop RPG sessions, manage parties, roll dice, and create monsters—all from your server!
+
+
+<!--- <img src="https://github.com/AlexandrosPanag/My_Discord_Projects/blob/main/Welcomechan!/Welcomechan!.png?raw=true" alt="drawing" width="120"/> -->
+<img src="https://raw.githubusercontent.com/AlexandrosPanag/My_Discord_Projects/refs/heads/main/dungeonmaster/DM.png" alt="drawing" width="120"/>
+
 
 ---
 
