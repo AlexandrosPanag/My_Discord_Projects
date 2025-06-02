@@ -1,7 +1,7 @@
 # My Discord Projects – Open Source
 
 Welcome to **My Discord Projects – Open Source**!  
-This repository contains a collection of Discord bot scripts, utilities, and fun features created for the community. All code here is open source and free to use in your own projects.
+This repository contains a collection of Discord bot scripts, utilities, and fun features created for the community. All code here in this folder is open source and free to use in your own projects.
 
 ---
 
@@ -16,7 +16,7 @@ This repository contains a collection of Discord bot scripts, utilities, and fun
 ## 📦 How to Use
 
 - Browse the code and copy any blocks you find useful.
-- You are **free to use, modify, and share** any code from this repository in your own projects.
+- You are **free to use, modify, and share** any code from this repository folder in your own projects.
 - No attribution required, but a star or mention is always appreciated!
 
 ---
