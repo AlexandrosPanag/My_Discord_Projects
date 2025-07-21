@@ -1,5 +1,7 @@
 # 🌟 StarChan Bot - Complete Documentation
 
+![](https://raw.githubusercontent.com/AlexandrosPanag/My_Discord_Projects/refs/heads/main/STAR/STAR.png)
+
 ## 📋 Table of Contents
 - [Overview](#overview)
 - [Core Features](#core-features)
