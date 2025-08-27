@@ -5,47 +5,109 @@
 A feature-rich Discord bot with contribution system, achievements, games, and intelligent chatterbot functionality.
 
 ---
+# StarChan Discord Bot
 
-## ✨ Features
+StarChan is a **feature-packed, experimental AI-powered Discord bot** designed for **community engagement, interactive games, and gamified contribution systems** — all with an integrated shop, achievements, and a text-based Discord terminal.
 
-### 🔹 Core Systems
-- **Contribution System** – Earn points through messages, reactions, and activities  
-- **Achievement System** – Unlock achievements with rewards and progress tracking  
-- **Level System** – Level up and unlock new roles and privileges  
-- **Interactive Shop** – Spend contribution points on roles and perks  
+## 🚀 Features
 
-### 🎮 Games & Activities
-- **Counting Game** – Collaborative counting with milestone rewards  
-- **Weekly Riddle Challenge** – Solve riddles for 3,000 contribution points  
-- **Rock Paper Scissors** – Play against the bot with contribution rewards  
-- **Coin Flip** – Simple gambling game with point wagering  
+### 🤖 AI & Experimental Systems
+- **ChatterBot Integration**: AI conversational module for dynamic and context-aware responses.
+- **Smart Achievement Tracking**: Automatic detection of user actions to unlock rewards.
+- **Leveling System**: XP-based progression using an advanced formula for smooth scaling.
+- **Economy Achievements**: Detects spending, earning milestones, and awards bonuses.
 
-### ⚡ Advanced Features
-- **Intelligent Chatterbot** – AI-powered conversations with gaming knowledge  
-- **Leaderboard System** – Track top contributors and achievers  
-- **Admin Tools** – Comprehensive moderation and management commands  
-- **Achievement Notifications** – Dedicated channel for achievement announcements  
+### 🎮 Games & Fun Commands
+- **Blackjack Royale** – High-stakes card game with:
+  - Custom casino-style embeds
+  - Variable payouts (including Blackjack 3:2)
+  - Special role awards for extreme wins (e.g., 🎲 *Gambler* role)
+- **8-Ball, Puns, Roasts, Praises, Dad Jokes** – Community-driven fun.
+- **Weekly Riddles** – Solve brain teasers for rewards.
+- **Reaction-based Mini-Games** – Interactive play through Discord emoji reactions.
 
-### 🌟 Special Systems
-- **Star Contributor Boost** – 2x contribution points for special role holders (weekly reset)  
-- **Memory System** – Bot remembers user preferences and conversation history  
-- **Content Filtering** – Safe, non-political conversations  
-- **Owner-Only Features** – Exclusive chatterbot access for bot owner  
+### 🏆 Achievements & Rewards
+- **Role Shop** – Buy cosmetic roles with earned points.
+- **Special Titles** – Legendary, Epic, Rare, Common, and Starter tier roles.
+- **Milestone Bonuses** – Contribution and counting streak achievements.
+- **Exclusive Roles** – e.g., 🎲 *Gambler* for high-stakes blackjack winners.
+
+### 💬 Discord Terminal
+- Command prefix: `!`
+- Fully text-driven interactive experience.
+- In-terminal economy management, role purchases, and mini-games.
+- Rich embed styling for immersive command responses.
+
+### 🛠️ Moderation & Permissions
+- **VIP System** – Special perks for premium supporters.
+- **Developer Commands** – Locked to bot owner or specific roles.
+- **Channel Restrictions** – Prevent bot activity in forbidden channels.
 
 ---
 
-## 📋 Prerequisites
+## 📦 Installation
 
-- Python **3.8+**  
-- `discord.py` library  
-- A **Discord Bot Token**  
-- A Discord server with proper permissions  
+**Requirements:**
+- Python 3.9+
+- [discord.py](https://github.com/Rapptz/discord.py) (with Intents enabled)
+- `requests`, `asyncio`, and standard library dependencies.
+
+**Setup:**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/starchan-bot.git
+   cd starchan-bot
+
+2. Install dependencies:
+
+pip install -r requirements.txt
 
 ---
+### Configure your bot:
 
-## 🚀 Installation & Setup
+Update BOT_CONFIG values in app.py and bot_utils.py with your Discord bot token, server IDs, and channel IDs.
 
-### 1. Clone/Download the Repository
-```bash
-git clone [your-repo-url]
-cd StarChan
+---
+###
+Run the bot:
+
+python app.py
+
+---
+# ⚙️ Configuration
+
+The bot uses a central BOT_CONFIG dictionary for IDs, role prices, and feature toggles.
+
+Main Configurable Files:
+
+app.py – Core bot logic, games, achievements, AI chat.
+
+bot_utils.py – Utility functions, role/shop definitions, riddles, and game content.
+
+---
+# 🧠 AI Experimental Notes
+
+ChatterBot: The AI chat backend is modular, meaning you can replace or extend it with GPT-based APIs.
+
+Command Cooldowns: Implemented to prevent spam and encourage fair play.
+
+Achievement Logic: Real-time checks for gaming, economy, and social milestones.
+
+---
+# 📜 License
+
+This project is licensed under the MIT License – see the LICENSE
+ file for details.
+
+---
+# 🤝 Contributing
+
+Pull requests are welcome! If you have ideas for:
+
+--
+# New AI features
+
+# Additional Discord terminal commands
+
+More achievements or games
+Feel free to open an issue or PR.
