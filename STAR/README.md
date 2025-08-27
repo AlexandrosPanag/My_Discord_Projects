@@ -99,10 +99,6 @@ Achievement Logic: Real-time checks for gaming, economy, and social milestones.
 This project is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International License – see the LICENSE.md
  file for details: https://github.com/AlexandrosPanag/My_Discord_Projects/blob/main/LEARN.md
 
----
-## 🤝 Contributing
-
-Pull requests are welcome! If you have ideas for:
 
 --
 # New AI features
