@@ -85,7 +85,7 @@ app.py – Core bot logic, games, achievements, AI chat.
 bot_utils.py – Utility functions, role/shop definitions, riddles, and game content.
 
 ---
-# 🧠 AI Experimental Notes
+## 🧠 AI Experimental Notes
 
 ChatterBot: The AI chat backend is modular, meaning you can replace or extend it with GPT-based APIs.
 
@@ -94,13 +94,13 @@ Command Cooldowns: Implemented to prevent spam and encourage fair play.
 Achievement Logic: Real-time checks for gaming, economy, and social milestones.
 
 ---
-# 📜 License
+## 📜 License
 
-This project is licensed under the MIT License – see the LICENSE
- file for details.
+This project is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International License – see the LICENSE.md
+ file for details: https://github.com/AlexandrosPanag/My_Discord_Projects/blob/main/LEARN.md
 
 ---
-# 🤝 Contributing
+## 🤝 Contributing
 
 Pull requests are welcome! If you have ideas for:
 
