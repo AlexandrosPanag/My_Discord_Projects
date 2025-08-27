@@ -101,9 +101,9 @@ This project is licensed under the Attribution-NonCommercial-ShareAlike 4.0 Inte
 
 
 ---
-## 🤖 New AI features
+### 🤖 New AI features
 
-## 🤖Additional Discord terminal commands
+### 🤖Additional Discord terminal commands
 
 More achievements or games
 Feel free to open an issue or PR.
