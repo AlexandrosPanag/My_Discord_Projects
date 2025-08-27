@@ -100,10 +100,10 @@ This project is licensed under the Attribution-NonCommercial-ShareAlike 4.0 Inte
  file for details: https://github.com/AlexandrosPanag/My_Discord_Projects/blob/main/LEARN.md
 
 
---
-# New AI features
+---
+## 🤖 New AI features
 
-# Additional Discord terminal commands
+## 🤖Additional Discord terminal commands
 
 More achievements or games
 Feel free to open an issue or PR.
