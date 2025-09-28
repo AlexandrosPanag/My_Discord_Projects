@@ -9,12 +9,23 @@ If you wish to use the complete bot or obtain commercial rights, please contact 
 
 ---
 
-## License
+## 📄 License
 
-This repository's code examples and templates are released under the [MIT License](https://opensource.org/licenses/MIT).
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-You are free to use, modify, and distribute the code for personal or commercial purposes, with or without attribution.
+**You are free to:**
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material
+
+**Under the following terms:**
+- **Attribution** — You must give appropriate credit
+- **NonCommercial** — You may not use the material for commercial purposes
+- **ShareAlike** — Distribute contributions under the same license
 
 ---
 
-Credits: [@alexandrospanag](https://github.com/alexandrospanag)
+<div align="center">
+
+**[⬆ Back to Top](#java-development-portfolio)**
+
+</div>
